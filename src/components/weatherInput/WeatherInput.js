@@ -1,8 +1,11 @@
-import { Fragment } from "react";
+import { Fragment, useContext } from "react";
 import React, { useState } from "react";
 import "./weatherInput.css";
+import { WeatherContext } from "../../app";
 
-const WeatherInput = ({ getWeatherData }: any) => {
+const WeatherInput = () => {
+  const { fetchWeatherData: getWeatherData } = useContext(WeatherContext);
+
   const [city, setCity] = useState("");
 
   return (
