@@ -1,0 +1,29 @@
+.weather {
+  margin-top: 20px;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  width: max-content;
+  padding: 0px 20px 20px 20px;
+  margin-left: 25%;
+}
+.weather .title {
+  font-size: 4rem;
+
+  font-family: "Times New Roman", Times, serif;
+}
+.weather form {
+  margin-top: 30px;
+}
+.weather form input {
+  padding: 10px;
+  border: none;
+  margin-right: 10px;
+}
+
+.weather form input:focus {
+  outline: none;
+}
+
+.weather .submit:focus {
+  outline: none;
+}

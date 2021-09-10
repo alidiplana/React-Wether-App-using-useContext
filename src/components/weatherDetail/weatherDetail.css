@@ -1,0 +1,73 @@
+.display-weather {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.display-weather .main-card {
+  width: 500px;
+  margin-top: 20px;
+  align-self: center;
+  padding: 50px;
+  border-radius: 20px;
+  position: relative;
+  border: 1px solid black;
+}
+
+.display-weather .main-card .card-title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 1.5rem;
+}
+
+.display-weather .main-card .card-subtitle {
+  position: absolute;
+  left: 10px;
+
+  color: grey;
+  margin-top: -15px;
+}
+
+.display-weather h1 {
+  font-size: 5rem;
+  margin: -10px;
+  margin-left: -150px;
+}
+
+.display-weather .weather-icon {
+  width: 100px;
+  text-align: end;
+  align-items: flex-end;
+  position: absolute;
+  top: 50px;
+}
+
+.display-weather .weather-main {
+  position: absolute;
+
+  top: 120px;
+  left: 310px;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.display-weather .weather-description {
+  position: absolute;
+  left: 10px;
+  font-size: 1.4rem;
+}
+
+.temperature-container {
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+}
+
+.flex-container div {
+  width: 50%;
+  margin: 10px;
+  justify-content: space-between;
+}
